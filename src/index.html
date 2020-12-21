@@ -4,11 +4,51 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<body>
+    </head>
+  <title>Cifrador cesar</title>
+    <div id= "root">
+      
+      <div class=logo>
+        <img src="assets/logo.jpg" alt="logo"/> 
+        <h1>Keep it safe!</h1>
+      </div>
+      </div>
+        <div class= "instrucciones" id="instrucciones">
+    <p>Hola! ¿Sabías que los cifradores han sido utilizados a lo largo de la historia con distintos propósitos?
+
+    <br>
+
+    Este caso de cifrador se llama <em>Cifrador César</em>. Sí, justo tiene mucho tiempo que se inventó.
+    <br>
+    <!-- Aquí insertar dato curioso sobre los cifradores PENDIENTE--> 
+      El propósito de esto es utilizar este cifrador para mantener seguras tus contraseñas, algunos mensajes o aquello que quieras mantener seguro
+      <br>
+
+    </p>
+  
     </div>
+    <div class= container>
+    
+    <div class ="cifradoCesar"> <!--Div class para meter los atributos en CSS -->
+      <textarea class="textArea" id="texto1" rows= "10" cols= "40" > 
+        </textarea>
+      <p>Escribe el número que quieras. 
+        Este será el desplazamiento
+       <input class="textArea" id="desplazamiento">
+      </p>
+      <p><button class="btncifrar" id="btn-cifrar">¡Oculta tu texto!</button><!--btn-cifrar para CSS -->
+      <button class="btncifrar" id="btn-descifrar">¡Descubre el texto!</button>
+    </p>
+      <textarea class="textArea" id="texto2" rows= "10" cols= "40"> </textarea>
+    <p> ¡Listo! Utilizalo :) 
+      <br> 
+      No olvides el número del desplazamiento :)
+          </p>
+  </div>
+  </div>
     <script src="index.js" type="module"></script>
   </body>
-</html>
+  
